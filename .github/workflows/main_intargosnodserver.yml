@@ -33,4 +33,4 @@ jobs:
           app-name: 'intargosnodserver'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F040C62D86174FA3AB2D0D7A81DAE7BF }}
-          package: ./dist
+          package: ./build
