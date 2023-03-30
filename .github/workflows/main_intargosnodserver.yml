@@ -24,7 +24,6 @@ jobs:
       - name: npm install, build, and test
         run: |
           npm install
-          npm audit fix
           npm run build --production
         working-directory: . 
              
