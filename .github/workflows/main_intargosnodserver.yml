@@ -31,6 +31,5 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: 'intargosnodserver'
-          slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_5F5562DC26D245C9825F9FE877E1266E }}
-          package: ./build
+          package: .
