@@ -62,5 +62,6 @@ jobs:
           
       - name: 'Startupcommmand'
         run: |
+            cd build
             npm ci --production
             npm start
