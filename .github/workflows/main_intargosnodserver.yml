@@ -25,9 +25,8 @@ jobs:
         run: |
           npm install
           npm run build --prod
-      
-      
-       - name: "production dep"
+         
+      - name: 'production dependency'
         run: |
           cd build
           npm ci --production
