@@ -25,12 +25,7 @@ jobs:
         run: |
           npm install
           npm run build --prod
-         
-      - name: 'production dependency'
-        run: |
-          cd build
-          npm ci --production
-          
+    
       - name: Zip Artifacts
         run: zip release.zip ./* -r
        
